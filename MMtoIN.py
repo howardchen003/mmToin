@@ -1,7 +1,7 @@
 import tkinter as tk
 
 import tkinter.messagebox as messagebox
-import tkinter.ttk as ttk
+import tkinter as ttk
 
 def convert(event=None):
     value = float(entry.get())
