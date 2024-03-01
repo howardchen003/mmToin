@@ -6,13 +6,15 @@ import tkinter.ttk as ttk
 def convert(event=None):
     value = float(entry.get())
     unit = var.get()
+    outUnit = "in" if unit == "mm" else "mm"
 
     if unit == "mm":
         result = value / 25.4
     else:
         result = value * 25.4
 
-    output_label.config(text=f"{result:.2f} {unit}")
+    output_label.config(text=f"{result:.2f} {outUnit}")
+
 
 def copy_output():
     output_text = output_label.cget("text")
