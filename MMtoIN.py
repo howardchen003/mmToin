@@ -12,7 +12,7 @@ def convert(event=None):
     else:
         result = value * 25.4
 
-    output_label.config(text=f"{result:.2f} {unit}")
+    output_label.config(text=f"{result:.2f}")
 
 def copy_output():
     output_text = output_label.cget("text")
@@ -41,7 +41,7 @@ root.bind('<Configure>', update_font)  # Bind the update_font function to the Co
 var = tk.StringVar()
 var.set("mm")
 
-label = tk.Label(root, text="Enter a value and select a unit:")
+label = tk.Label(root, text="Enter a value and select a unit to convert to:")
 label.pack()
 
 entry = tk.Entry(root)
