@@ -12,7 +12,7 @@ def convert(event=None):
     else:
         result = value * 25.4
 
-    output_label.config(text=f"{result:.2f}")
+    output_label.config(text=f"{result:.2f} {unit}")
 
 def copy_output():
     output_text = output_label.cget("text")
