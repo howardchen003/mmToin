@@ -1,0 +1,10 @@
+RECEIVED_DATA_START
+{"Name":"StatusResponse","OriginatingCommand":{"ID":"638447955473479278","Name":"Status","Timestamp":"2024-02-29 09:25:51.238"},"Result":0,"Status":{"AimingBeamOn":true,"CavityBoardTemperature":25.523320766796814,"CommandBoardTemperature":26.113179858380704,"CoolingInterlock":false,"DiodeTemperature":25.70760610624359,"Errors":[{"Description":"FP NO and NC have same value","ID":"PEDAL_COHERENCY","Timestamp":"2023-02-15 14:04:10.281"}],"FiberConnectorTemperature":24.8347064065793,"FiberDetected":true,"FiringMode":2,"FootSwitchNormallyClosed":false,"FootSwitchNormallyOpen":false,"FootSwitchPressed":false,"LaserDisabled":false,"LaserFiring":false,"PowerOnCount":27,"PowerWatts":1,"PulseOffTimeMs":100,"PulseOnTimeMs":100,"SessionDeviceOnTime":"0:00:01:51.080","SessionDiodeOnTime":"0:00:00:00.000","SessionEnergyJoules":0,"SessionLasingTime":"0:00:00:00.000","SessionPulses":0,"State":5,"TotalDeviceOnTime":"0:12:30:41.327","TotalDiodeOnTime":"0:05:28:22.410","TotalEnergyJoules":167113.5645150837,"TotalLasingTime":"0:02:29:42.153","TotalPulses":5713,"VolumeLevel":4,"Warnings":[]},"Timestamp":"2023-02-15 14:04:13.628"}
+RECEIVED_DATA_END
+SENT_DATA_START
+{
+  "Timestamp": "2024-02-29 09:25:51.488",
+  "ID": "638447955473479281",
+  "Name": "Status"
+}
+SENT_DATA_END
